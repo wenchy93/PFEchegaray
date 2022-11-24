@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "ABeeZee", "sans-serif";
+}
+
+body {
+  background-color: whitesmoke;
+}
+body main {
+  background-color: #a55540;
+  margin-top: 60.5px;
+}
+body main .mision {
+  background-color: #4b4a5a;
+  width: 100%;
+  height: 500px;
+}
+body main .mision h2 {
+  margin-top: 20px;
+}
+body main .mision p {
+  font-size: 1.2rem;
+  margin-top: 40px;
+}
+body footer {
+  background-color: whitesmoke;
+  border-top: 3px solid black;
+}
+body footer p {
+  color: black;
+}
+body footer .liFooter .buttonFooter {
+  background: #FBCA1F;
+  font-family: inherit;
+  padding: 0.6em 0.6em;
+  font-weight: 900;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  color: black;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+body footer .liFooter .buttonFooter:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+nav {
+  border-bottom: 3px solid black;
+}
+nav .logo {
+  width: 50px;
+}
+
+ul {
+  width: 100%;
+}
+ul li {
+  list-style-type: none;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin-top: 5px;
+  font-family: "Fredoka One", "cursive";
+}
+
+p {
+  text-align: center;
+}
+
+.divImagenNoticia {
+  text-align: center;
+  margin-top: 5px;
+}
+.divImagenNoticia .imagenNoticia {
+  width: 350px;
+  height: 300px;
+  border-radius: 5px;
+  border: 3px solid black;
+}
+
+@media (min-width: 1024px) {
+  body main .mision {
+    height: 600px;
+  }
+  body main .mision p {
+    font-size: 2rem;
+    margin-top: 100px;
+  }
+  body main .mision h2 {
+    font-size: 3rem;
+  }
+  body footer .liFooter .buttonFooter {
+    font-size: 1rem;
+  }
+}
+body .mainContacto {
+  padding: 20px;
+}
+body .mainContacto .sectionForm {
+  padding-top: 10%;
+}
+body .mainContacto .sectionForm h2 {
+  font-size: 1.5rem;
+}
+body .mainContacto .sectionForm p {
+  font-size: 1.2rem;
+  margin: 10px;
+  text-align: center;
+}
+body .mainContacto .sectionForm .buttonForm {
+  width: 80%;
+  margin: 0 10%;
+  background: #FBCA1F;
+  font-family: inherit;
+  padding: 0.6em 0.6em;
+  font-weight: 900;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  color: black;
+  text-decoration: none;
+}
+body .mainContacto .sectionForm .buttonForm:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+body .mainContacto .formulario {
+  margin: 10px;
+}
+body .mainContacto .formulario label {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+body .mainContacto .formulario input {
+  text-align: center;
+  width: 100%;
+}
+body .mainContacto .formulario input:focus {
+  color: black;
+}
+body .mainContacto .formulario textarea {
+  width: 100%;
+  color: black;
+}
+
+@media (min-width: 1024px) {
+  body .mainContacto {
+    padding-bottom: 150px;
+  }
+  body .mainContacto .sectionForm h2 {
+    font-size: 4rem;
+  }
+  body .mainContacto .sectionForm p {
+    font-size: 1.6rem;
+  }
+}
+.bodySomos h2, .bodySomos p {
+  margin: 10px;
+}
+.bodySomos .divImagenSomos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodySomos .divImagenSomos .imagenSomos {
+  height: 260px;
+  width: 300px;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.mainProductos {
+  margin-top: 37px;
+}
+
+.bodyProductos h2 {
+  font-size: 2rem;
+  padding-top: 10px;
+}
+.bodyProductos .divProducto {
+  margin: 5px 5px 0 5px;
+  padding-bottom: 5px;
+}
+.bodyProductos .divProducto .divProductoImagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyProductos .divProducto .divProductoImagen .divProductoImagen__img {
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 231px;
+  height: 231px;
+}
+
+@media (min-width: 1024px) {
+  .productosFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .productosFlex .div50 {
+    width: 50%;
+  }
+}
+body .mainServicios {
+  padding-bottom: 5px;
+}
+body .mainServicios .divServiciosImagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .mainServicios .divServiciosImagen .divServiciosImagen__img {
+  border: 3px solid black;
+  border-radius: 5px;
+}
+body .mainServicios .divServiciosImagen .imagenSala {
+  height: 250px;
+  width: 350px;
+}
+
+/*# sourceMappingURL=styles.css.map */

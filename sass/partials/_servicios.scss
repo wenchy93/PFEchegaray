@@ -1,0 +1,20 @@
+@use 'variables';
+
+body {
+    .mainServicios {
+        padding-bottom: 5px;
+        .divServiciosImagen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .divServiciosImagen__img {
+                border: variables.$border-main;
+                border-radius: 5px;
+            }
+            .imagenSala {
+                height: 250px;
+                width:350px;
+            }
+        }
+    }
+}

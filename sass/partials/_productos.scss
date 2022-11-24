@@ -1,0 +1,41 @@
+@use 'variables';
+
+
+.mainProductos {
+    margin-top: 37px;
+}
+
+.bodyProductos {
+    h2{
+        font-size: 2rem;
+        padding-top: 10px;
+    }
+        .divProducto {
+            margin: 5px 5px 0 5px;
+            padding-bottom: 5px;
+            .divProductoImagen {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .divProductoImagen__img {
+                    border: variables.$border-main;
+                    border-radius: 5px;
+                    width: 231px;
+                    height: 231px;
+                }
+            }
+        }
+    }
+
+//VISTA ESCRITORIO
+
+@media (min-width: 1024px) {
+    .productosFlex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .div50{
+            width: 50%;
+        }
+    }
+}

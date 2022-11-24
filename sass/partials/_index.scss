@@ -1,0 +1,124 @@
+@use 'variables';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: variables.$font-secondary;
+}
+
+body {
+    background-color: whitesmoke;
+    
+    main {
+        background-color: variables.$color-main;
+        margin-top: 60.5px;
+        .mision {
+            background-color: variables.$color-secondary;
+            width: 100%;
+            height: 500px;
+            h2 {
+                margin-top: 20px;
+            }
+            p {
+                font-size: 1.2rem;
+                margin-top: 40px;
+            }
+        }
+    }
+    footer {
+        background-color: whitesmoke;
+        border-top: variables.$border-main;
+        p {
+            color: black;
+        }
+        .liFooter {
+            
+            .buttonFooter {
+                background: #FBCA1F;
+                font-family: inherit;
+                padding: 0.6em 0.6em;
+                font-weight: 900;
+                border: variables.$border-main;
+                border-radius: 0.4em;
+                box-shadow: 0.1em 0.1em;
+                color: black;
+                text-decoration: none;
+                font-size: 0.8rem;
+                &:hover {
+                    transform: translate(-0.05em, -0.05em);
+                    box-shadow: 0.15em 0.15em;
+                }
+            }
+        }
+    }
+}
+
+
+nav {
+    border-bottom: variables.$border-main;
+    .logo {
+        width: 50px;
+    }
+}
+
+ul {
+    width: 100%;
+    
+    li {
+        list-style-type: none;
+        text-align: center;
+    }
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 5px;
+    font-family: variables.$font-main;
+}
+
+p {
+    text-align: center;
+}
+
+
+.divImagenNoticia {
+    text-align: center;
+    margin-top: 5px;
+    .imagenNoticia {
+        width: 350px;
+        height: 300px;
+        border-radius: 5px;
+        border: variables.$border-main;
+    }
+}
+
+
+// VISTA ESCRITORIO
+
+@media (min-width: 1024px) {
+    body{
+        main{
+            .mision {
+                height: 600px;
+                p {
+                    font-size: 2rem;
+                    margin-top: 100px;
+                }
+                h2 {
+                    font-size: 3rem;
+                }
+            }
+        }
+    footer {
+        .liFooter {
+            .buttonFooter {
+                font-size: 1rem;
+            }
+        }
+    }
+    }
+
+}
