@@ -101,10 +101,10 @@ p {
   }
 }
 body .mainContacto {
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 body .mainContacto .sectionForm {
-  padding-top: 10%;
+  padding-top: 20%;
 }
 body .mainContacto .sectionForm h2 {
   font-size: 1.5rem;
@@ -154,6 +154,9 @@ body .mainContacto .formulario textarea {
 @media (min-width: 1024px) {
   body .mainContacto {
     padding-bottom: 150px;
+  }
+  body .mainContacto .sectionForm {
+    padding-top: 15%;
   }
   body .mainContacto .sectionForm h2 {
     font-size: 4rem;
